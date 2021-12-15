@@ -1,0 +1,102 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+canvas{
+    background-color: #fff;
+    border: 1px dashed;
+    margin: auto;
+}
+
+a{
+    display: inline-block;
+    background: #69c;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 100px;
+}
+
+.pen-tools{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 60%;
+    margin: auto;
+}
+
+p{
+    text-align: center;
+}
+
+.fa-refresh{
+    margin-left: 10px;
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 100px;
+    color: white;
+    cursor: pointer;
+}
+
+.pen-size{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.board{
+    width: 800px;
+    margin: auto;
+}
+
+.drawing-colors{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.color-circle{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-left: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.color-circle:nth-child(1){
+    background-color: hotpink;
+}
+
+.color-circle:nth-child(2){
+    background-color: orange;
+}
+
+.color-circle:nth-child(3){
+    background-color: red;
+}
+
+.color-circle:nth-child(4){
+    background-color: yellow;
+}
+
+.color-circle:nth-child(5){
+    background-color: black;
+}
+
+.color-circle:nth-child(6){
+    background-color: blue;
+}
+
+.color-circle:nth-child(7){
+    background-color: white;
+}
+
+.color-circle:nth-child(8){
+    background-color: green;
+}
+
+.active{
+    transform: scale(1.3);
+}
