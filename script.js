@@ -70,6 +70,7 @@ const removeActiveCircleColor = () => {
 
 function penSizeChange(pensize){
     penSize = pensize
+    console.log("set the pensize");
 }
 
 const favcolor = (elem) => {
